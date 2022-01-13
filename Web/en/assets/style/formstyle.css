@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    width: 100%;
+    background: url("../images/bg.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    display: flex;
+}
+
+/* NavBar */
+.topbar2.navbar{
+    padding-bottom: 25px;
+ }
+
+/* Navigationbar */
+
+#interface {
+    width: 100%;
+    position: relative;
+}
+
+/* Hamburger menu */
+.n1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#menu-button{
+    display: none;
+    color: #2b2b2b;
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 20px;
+
+}
+/* Heading */
+.i-name{
+    color: #444a53;
+    padding: 30px 30px 0 30px;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 70px;
+}
+
+.addcase{
+    padding: 30px 30px 0 30px;
+}
+/* Add case */
+.addcasebutton{
+    display: inline-flex;
+    height: 50px;
+    /* padding: 10px 10px 0 10px; */
+    border-radius: 15px;
+    width: 120px;
+    color: white;
+    background: #4472c4;
+    border-color: #4472c4;
+    border-style:groove;
+    align-items: center;
+}
+
+.button__text{
+    margin:auto;
+}
+.searchcasebutton{
+    /* display: inline-flex; */
+    height: 50px;
+    padding: 10px 10px 10px 10px;
+    
+}
+.searchcasebutton input{
+    border-radius: 15px;
+    width: 120px;
+    color: white;
+    background: #4472c4;
+    border-color: #4472c4;
+    border-style: groove;
+}
+
+
+
+/* Table */
+.board{
+    width: 94%;
+    margin: 30px 30px 30px 0;
+    overflow: auto;
+    background: #fff;
+    border-radius: 8px;
+}
+
+.board img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.board p{
+    font-weight: 400;
+    font-size: 13px;
+    color: #787d8d;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+tr{
+    border-bottom: 1px solid #eef0f3;
+}
+
+thead td{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    background: #F9FAFB;
+    text-align: center;
+    padding: 15px;
+}
+
+
+tbody tr td{
+    padding: 10px 15px;
+}
+
+.tablebutton a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #554cd1;
+    font-weight: 600;
+}
+
+.searchbar input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  }
+
+  #myInput {
+    background-image: url('/css/searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+  }
+
+  #myTable {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+    font-size: 18px;
+  }
+
+  #myTable th{
+    text-align: center;
+    padding: 12px;
+  }
+  #myTable td {
+    text-align: right;
+    padding: 12px;
+
+  }
+
+  #myTable tr {
+    border-bottom: 1px solid #ddd;
+  }
+
+  #myTable tr.header {
+    color: blue;
+  }
+  label{
+    color: blue;
+  }
+  #myTable tr.header {
+    background-color: #f1f1f1;
+  }
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  /* Firefox */
+  input[type=number] {
+    -moz-appearance: textfield;
+  }
+
+  /* update popup */
+
+  .modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.check2{
+    display: block;
+    align-items: center;
+}
+/* table-next */
+div.pager {
+    text-align: center;
+    margin: 1em 0;
+  }
+  
+  div.pager span {
+    display: inline-block;
+    width: 1.8em;
+    height: 1.8em;
+    line-height: 1.8;
+    text-align: center;
+    cursor: pointer;
+    background: rgb(168, 165, 165);
+    color: #fff;
+    margin-right: 0.5em;
+  }
+  
+  div.pager span.active {
+    background: #4472c4;
+  }
