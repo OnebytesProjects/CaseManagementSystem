@@ -1,0 +1,44 @@
+html table 
+->next page(numbers)
+https://stackoverflow.com/questions/51079259/how-to-put-next-and-previous-button-below-the-html-table-to-handle-content-if-it
+->sort
+
+pdf
+https://www.encodedna.com/javascript/convert-html-table-to-pdf-using-javascript-without-a-plugin.htm
+https://www.encodedna.com/javascript/practice-ground/default.htm?pg=convert_html_table_to_pdf_using_javascript
+
+ADmin control
+->Dropdown
+https://stackoverflow.com/questions/18880823/how-to-add-a-delete-remove-button-per-each-option-item-in-html-select
+https://www.w3schools.com/jsref/met_select_remove.asp
+
+cnfrm buton:
+https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_confirm3
+
+upload image
+https://www.geeksforgeeks.org/how-to-upload-image-into-database-and-display-it-using-php/
+
+dropdown size
+https://stackoverflow.com/questions/10671614/how-to-control-the-width-of-select-tag
+
+#4472c4
+
+multiple file upload
+currency:د.ك
+<input type="text" name="currency-field" id="currency-field" pattern="^\$\d{1,3}(,\d{3})*(\.\d+)?$" value="" data-type="currency" placeholder="$1,000,000.00">
+
+update:
+https://www.youtube.com/watch?v=5W2qazb1-7c
+
+Upload multiple files
+https://www.johnpatel.com/upload-multiple-files-in-php/
+
+dropdown multiple select
+https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_select_multiple
+
+dropdown update
+https://forums.phpfreaks.com/topic/307126-updating-mysqli-from-dropdown-not-working/
+
+
+
+individual table pdf or whole pdf
